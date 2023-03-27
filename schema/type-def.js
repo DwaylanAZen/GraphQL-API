@@ -13,8 +13,10 @@ const typeDefs = gql`
         id: ID!
         name: String!
         username: String!
-        age: Int!
-        nationality: Nationality! 
+        level: String!
+        type: String!
+        attribute: String!
+        field: Field! 
         friends: [User]
 
     }
@@ -24,13 +26,13 @@ const typeDefs = gql`
         user(id: ID!): User!
     }
 
-    enum Nationality {
-        UNITED_STATES 
-        IRELAND 
-        BRAZIL 
-        PHILIPPINES 
-        DOMINICAN_REPUBLIC 
-        SPAIN
+    enum Field {
+        DEEP_SAVERS 
+        DRAGONS_ROAR 
+        METAL_EMPIRE 
+        NATURE_SPIRITS 
+        NIGHTMARE_SOLDIERS 
+        VIRUS_BUSTERS
         RUSSIA
 
     }

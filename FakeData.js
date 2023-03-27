@@ -3,94 +3,81 @@
  const UserList = [
     {
         id: 1,
-        name: "Ru",
-        username: "Roop Paul",
-        age: 75,
-        nationality: "UNITED_STATES"
+        name: "Agumon",
+        username: "Agumon",
+        level: "Rookie",
+        type:"Reptile",
+        attribute:"Vaccine",
+        field: "DRAGONS_ROAR"
     },
     {
         id: 2,
-        name: "Pangina",
-        username: "Pangina Heels",
-        age: 32,
-        nationality: "PHILIPPINES"
+        name: "Gabumon",
+        username: "Gabumon",
+        level: "Rookie",
+        type: "Beast",
+        attribute: "Data",
+        field: "METAL_EMPIRE",
+        friends: [
+            {
+                id: 1,
+                name: "Agumon",
+                username: "Agumon",
+                level: "Rookie",
+                type:"Reptile",
+                attribute:"Vaccine",
+                field: "DRAGONS_ROAR"
+            }
+        ]
     },
     {
         id: 3,
-        name: "Candy",
-        username: "Candy Muse",
-        age: 27,
-        nationality: "DOMINICAN_REPUBLIC"
+        name: "Gatomon",
+        username: "Gatomon",
+        level: "Champion",
+        type: "Holy Beast",
+        attribute: "Vaccine",
+        field: "NATURE_SPIRITS",
+        friends: [
+            {
+                id: 4,
+                name: "Patamon",
+                username: "Patamon",
+                level: "Champion",
+                type: "Holy Beast",
+                attribute: "Vaccine",
+                field: "DOMINICAN_REPUBLIC"
+            }
+        ]
     },
     {
         id: 4,
-        name: "Trixie",
-        username: "Trixie Mattel",
-        age: 35,
-        nationality: "UNITED_STATES",
+        name: "Patamon",
+        username: "Patamon",
+        level: "Champion",
+        type: "Holy Beast",
+        attribute: "Vaccine",
+        field: "DOMINICAN_REPUBLIC",
         friends: [
             {
-                id: 8,
-                name: "Katya",
-                username: "Katya Zomolodchikova",
-                age: 35,
-                nationality: "RUSSIA"
+                id: 3,
+                name: "Gatomon",
+                username: "Gatomon",
+                level: "Champion",
+                type: "Holy Beast",
+                attribute: "Vaccine",
+                field: "NATURE_SPIRITS"
             },
         ]
     },
     {
         id: 5,
-        name: "Bianca",
-        username: "Bianca Del Rio",
-        age: 37,
-        nationality: "UNITED_STATES",
-        friends: [   
-            {
-            id: 7,
-            name: "Adore",
-            username: "Adore Delano",
-            age: 20,
-            nationality: "UNITED_STATES"
-        },
-    ]
-    },
-    {
-        id: 6,
-        name: "Rose",
-        username: "Rose",
-        age: 25,
-        nationality: "IRELAND"
-    },
-    {
-        id: 7,
-        name: "Adore",
-        username: "Adore Delano",
-        age: 20,
-        nationality: "UNITED_STATES",
-        friends: [
-            {
-                id: 5,
-                name: "Bianca",
-                username: "Bianca Del Rio",
-                age: 37,
-                nationality: "UNITED_STATES", 
-            }
-        ]
-    },
-    {
-        id: 8,
-        name: "Katya",
-        username: "Katya Zomolodchikova",
-        age: 35,
-        nationality: "RUSSIA",
-        friends: [
-            {
-                name: "Trixie",
-                username: "Trixie Mattel",
-                age: 35,
-                nationality: "UNITED_STATES"
-            }
-        ]
+        name: "Palmon",
+        username: "Palmon",
+        level: "Champion",
+        type:
+        attribute:
+        field: "DOMINICAN_REPUBLIC"
     },
 ]
 
