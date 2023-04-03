@@ -8,7 +8,10 @@
         level: "Rookie",
         type:"Reptile",
         attribute:"Vaccine",
-        field: "DRAGONS_ROAR"
+        field: "DRAGONS_ROAR",
+        attacks:[
+
+        ]
     },
     {
         id: 2,
@@ -18,6 +21,9 @@
         type: "Beast",
         attribute: "Data",
         field: "METAL_EMPIRE",
+        attacks:[
+
+        ],
         friends: [
             {
                 id: 1,
@@ -43,10 +49,10 @@
                 id: 4,
                 name: "Patamon",
                 username: "Patamon",
-                level: "Champion",
+                level: "Rookie",
                 type: "Holy Beast",
                 attribute: "Vaccine",
-                field: "DOMINICAN_REPUBLIC"
+                field: "NATURE_SPIRITS"
             }
         ]
     },
@@ -54,10 +60,10 @@
         id: 4,
         name: "Patamon",
         username: "Patamon",
-        level: "Champion",
+        level: "Rookie",
         type: "Holy Beast",
         attribute: "Vaccine",
-        field: "DOMINICAN_REPUBLIC",
+        field: "NATURE_SPIRITS",
         friends: [
             {
                 id: 3,
@@ -74,10 +80,10 @@
         id: 5,
         name: "Palmon",
         username: "Palmon",
-        level: "Champion",
-        type:
-        attribute:
-        field: "DOMINICAN_REPUBLIC"
+        level: "Rookie",
+        type: "Mammal",
+        attribute: "Data",
+        field: "NATURE_SPIRITS"
     },
 ]
 
