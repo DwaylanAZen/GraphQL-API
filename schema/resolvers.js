@@ -1,5 +1,5 @@
-const {UserList} = require('../FakeData');
-// const _ = require ("lodash");
+const {DigimonList} = require('../FakeData');
+const _ = require ("lodash");
 
 
 // Resolvers are functions that resolve the queries. They contain the payload logic.
@@ -8,13 +8,19 @@ const {UserList} = require('../FakeData');
 const resolvers = {
     Query : {
         users: () => {
-            return UserList;
+            return DigimonList;
         },
         user: (parent, args) => {
             const id = args.id;
-            const user = _.find(UserList, {id});
+            const user = _.find(DigimonList, {id});
             return user;
         },
+        attacks: (parent,args) =>{
+            const attacks = args.attacks
+            const attack = _.find(DigimonList,{attacks})
+
+            return attack
+        }
     },
 };
 

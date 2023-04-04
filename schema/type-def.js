@@ -6,7 +6,7 @@ const {gql} = require("apollo-server");
 
 // *** What is a enum? An enum type is a special data type that enables for a variable
 //  to be a set of predefined constants. Example: "Field" is a set of predifined constants
-// there are only so many to countries from 
+// Field is finite 
 
 const typeDefs = gql`
     type User {
@@ -41,7 +41,7 @@ const typeDefs = gql`
     type Attack {
         id: ID!
         name: String!
-        username: String!
+        description: String!
         hp: Int!
         mp: Int!
     }
@@ -49,6 +49,7 @@ const typeDefs = gql`
     type Query {
         users: [User!]!
         user(id: ID!): User!
+        attacks(attacks: String!) :Attack!
     }
 
     enum Field {

@@ -10,5 +10,5 @@ const server = new ApolloServer({typeDefs, resolvers})
 
 // Defining the runtime enviorment
 server.listen().then (({url}) => {
-    console.log(`Success. API is now running at ${url}`)
+    console.log(`Success. API is now running at ${url} welcome, Digidestened`)
 })

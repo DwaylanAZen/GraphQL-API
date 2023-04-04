@@ -1,6 +1,6 @@
 // Generating fake data
 
- const UserList = [
+ const DigimonList = [
     {
         id: 1,
         name: "Agumon",
@@ -10,6 +10,21 @@
         attribute:"Vaccine",
         field: "DRAGONS_ROAR",
         attacks:[
+            {
+                id: 1,
+                name: "Baby flame",
+                description: "",
+                hp: -3,
+                mp: -1
+            },
+            {
+                id: 2,
+                name: "Pepper Breath",
+                description: "",
+                hp: -10,
+                mp: -5
+            }
+
 
         ]
     },
@@ -54,7 +69,7 @@
                 attribute: "Vaccine",
                 field: "NATURE_SPIRITS"
             }
-        ]
+        ],
     },
     {
         id: 4,
@@ -74,6 +89,16 @@
                 attribute: "Vaccine",
                 field: "NATURE_SPIRITS"
             },
+        ],
+        attacks:[
+            {
+                
+                id: 3,
+                name: "Air Shot",
+                description: "",
+                hp: -1,
+                mp: -1
+            }
         ]
     },
     {
@@ -88,4 +113,4 @@
 ]
 
 
-module.exports = {UserList};
+module.exports = {DigimonList};
